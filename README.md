@@ -2,4 +2,4 @@
 
 Simple Bootstrap4 website
 
-www.wrobel-studnie.pl
+http://wrobel-studnie.pl
