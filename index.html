@@ -1,0 +1,310 @@
+<!DOCTYPE html>
+<html lang="pl">
+<head>
+	<meta charset="utf-8"/>
+	<meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+	<link href="https://fonts.googleapis.com/css?family=Lato:400,700&amp;subset=latin-ext" rel="stylesheet">
+	<link href="https://fonts.googleapis.com/css?family=Coda+Caption:800&amp;subset=latin-ext" rel="stylesheet">
+	<title>Studnie Głębinowe - Paweł Wróbel</title>
+	<meta name="description" content="Wykonywanie studni głębinowych oraz odwiertów pod pompy ciepła na potrzeby klientów indywidualnych, oraz przemysłu. Tel.: +48 783-757-695. Adres: Wola Podłężna, ul. Rudzicka 17, 62-510 Konin. Zapraszamy do kontaktu!"/>
+	<meta name="keywords" content="studnia, studnie, głębinowe, odwierty, pompy ciepła, wiercenie"/>
+	<link rel="icon" type="img/png" href="img/icon.png"/>
+	<link rel="stylesheet" href="css/bootstrap.min.css" type="text/css"/>
+	<link rel="stylesheet" href="css/fontello.css" type="text/css"/>
+	<link rel="stylesheet" href="style.css" type="text/css"/>
+	<script src="jquery-3.3.1.min.js" type="text/javascript"></script>
+	<script src="jquery.scrollTo.min.js"></script>
+	
+	<!-- Global site tag (gtag.js) - Google Analytics -->
+	<script async src="https://www.googletagmanager.com/gtag/js?id=UA-128512840-1"></script>
+	<script>
+	  window.dataLayer = window.dataLayer || [];
+	  function gtag(){dataLayer.push(arguments);}
+	  gtag('js', new Date());
+
+	  gtag('config', 'UA-128512840-1');
+	</script>
+
+	
+	<script>
+		jQuery(function($)
+		{
+			$.scrollTo(0);
+			
+			$('#link1').click(function(){$.scrollTo($('#o_firmie'),600,{offset:-82});
+										$('#menu-klawisze').removeClass('show');
+										$('.navbar-toggler').addClass('collapsed');
+										$('.navbar-toggler').attr('aria-expanded', "false");
+										});
+			$('#link2').click(function(){$.scrollTo($('#oferta'),600,{offset:-82});
+										$('#menu-klawisze').removeClass('show');
+										$('.navbar-toggler').addClass('collapsed');
+										$('.navbar-toggler').attr('aria-expanded', "false");
+										});
+			$('#link3').click(function(){$.scrollTo($('#cennik'),600,{offset:-82});
+										$('#menu-klawisze').removeClass('show');
+										$('.navbar-toggler').addClass('collapsed');
+										$('.navbar-toggler').attr('aria-expanded', "false");
+										});
+			$('#link4').click(function(){$.scrollTo($('#kontakt'),600,{offset:-82});
+										$('#menu-klawisze').removeClass('show');
+										$('.navbar-toggler').addClass('collapsed');
+										$('.navbar-toggler').attr('aria-expanded', "false");
+										});
+			$('.btn').click(function(){$.scrollTo($('body'),900);});
+		}
+		);
+		
+		$(window).scroll(function()
+		{
+			if($(this).scrollTop()>350) $('.btn').fadeIn();
+			else $('.btn').fadeOut();
+		
+		}
+		);
+		$(document).ready(function(){
+		if ($(window).width() < 576) $('.carousel-caption').html('<h5>Wiercenie studni głębinowych</h5><h6></br>Zadzwoń!</h6>');
+		});
+	</script>
+	
+</head>
+<body>
+
+	<a href="#" class="btn"></a>
+	
+	<header id="pasek-menu">
+			<nav class="navbar navbar-expand-md navbar-dark px-1 px-md-3" id="nawigacja">
+				<a class="navbar-brand" href="studnie-glebinowe">
+					<img src="img/logo.png" alt="Logo">
+				</a>
+				<button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#menu-klawisze" aria-controls="menu-klawisze" aria-expanded="false" aria-label="Przełącznik nawigacji">
+					<span class="navbar-toggler-icon"></span>
+				</button>
+				<div class="collapse navbar-collapse" id="menu-klawisze">
+					<ul class="navbar-nav ml-auto">
+						<li class="nav-item pl-3 pl-md-0">
+							<a id ="link1" class="nav-link" href="#">O&nbsp;firmie</a>
+						</li>
+						<li class="nav-item pl-3 pl-md-0">
+							<a id ="link2" class="nav-link" href="#">Oferta</a>							
+						</li>
+						<!--<li class="nav-item pl-3 pl-md-0">
+							<a class="nav-link" href="#">Galeria</a>							
+						</li>-->
+						<li class="nav-item pl-3 pl-md-0">
+							<a id ="link3" class="nav-link" href="#">Cennik</a>							
+						</li>
+						<li class="nav-item pl-3 pl-md-0">
+							<a id ="link4" class="nav-link" href="#">Kontakt</a>							
+						</li>
+						<li class="nav-item pl-3 pl-md-0">
+							<a class="nav-link" href="https://www.youtube.com/channel/UCCaDOaVovzCBhitWh-3h55A" target="_blank"><i class="icon-youtube-play" style="font-size:18px;"></i></a>							
+						</li>
+					</ul>
+				</div>
+			</nav>
+	</header>
+	
+	
+	
+	<section id="karuzela">
+		<div class="container">
+		<!-- KARUZELA -->
+			<div class="carousel slide" data-ride="carousel" data-interval="4000" id="slajdy">
+				
+				<!-- WSKAŹNIKI -->
+			  <ul class="carousel-indicators">
+				<li data-target="#slajdy" data-slide-to="0" class="active"></li>
+				<li data-target="#slajdy" data-slide-to="1"></li>
+				<li data-target="#slajdy" data-slide-to="2"></li>
+			  </ul>
+			  
+			  <!-- SLAJDY -->
+			  <div class="carousel-inner">
+				<div class="carousel-item  active">
+				  <img src="img/1.jpg" alt="Woda" width="1920" height="900">
+					<div class="carousel-caption" style="font-family: 'Coda Caption', sans-serif; text-shadow: 3px 3px #898989;">
+						<h3>Wiercenie studni głębinowych</h3>
+						<h4></br>Zadzwoń!</h4>
+					</div>
+				</div>
+				<div class="carousel-item">
+				  <img src="img/2.jpg" alt="Wiertnica" width="1920" height="900">
+				</div>
+				<div class="carousel-item">
+				  <img src="img/3.png" alt="Wiertnica" width="1920" height="900">
+				</div>
+			  </div>
+			  
+			  <!-- KONTROLKI LEWO-PRAWO -->
+			  <a class="carousel-control-prev" href="#slajdy" data-slide="prev">
+				<span class="carousel-control-prev-icon"></span>
+			  </a>
+			  <a class="carousel-control-next" href="#slajdy" data-slide="next">
+				<span class="carousel-control-next-icon"></span>
+			  </a>
+			</div>
+		</div>
+	</section>
+	
+	
+	
+	<section  id="o_firmie">
+		<div class="container">
+			<div class="row">
+				<div class="col-md-6 text-justify">
+					<h2>O firmie</h2>
+					<p>Właściciel zakładu <strong>Studnie Głębinowe - Paweł Wróbel</strong> w ciągu <u>17&nbsp;lat</u> pracy zdobył duże doświadczenie z zakresu wiercenia studni głębinowych. Firma posiada urządzenie umożliwiające wykonywanie odwiertów metodą obrotową, na prawy obieg płuczki.</br></br>Maksymalna głębokość wiercenia wynosi ok. 150&nbsp;m&nbsp;p.p.t.</br></br>Przeprowadzamy pompowania oczyszczające, określamy wydajności studni oraz poziom zwierciadła statycznego i dynamicznego po zakończeniu prac wiertniczych.</br></br>W trakcie pracy oraz po jej zakończeniu dbamy o czystość i porządek, co może być istotne dla właścicieli urządzonych działek i ogrodów.</p>
+				</div>
+				<div class="col-md-6">
+					<img src="img/wiertnica.jpg" alt="Wiertnica" id="img_o_firmie">
+				</div>
+			</div>
+		</div>
+	</section>
+	
+	
+	
+	<section  id="oferta">
+		<div class="container">
+		<!-- OFERTA -->
+			<h2>Oferta</h2>
+			<div class="row">
+				<div class="col-md-4">
+					<div class="card mt-2 mt-md-0">
+						<img class="card-img-top" src="img/studnia.jpg" alt="Studnie Głębinowe">
+						<div class="card-body text-justify">
+							<h4 class="card-title">Studnie Głębinowe</h4>
+							<p class="card-text">Studnie wiercone służą do pozyskiwania wody z głęboko zalegających warstw wodonośnych. Konstrukcja studni zależy przede wszystkim od geologii terenu oraz zapotrzebowania na wodę.</br></br>
+							Dostępne średnice:
+							<ul>
+								<li>&#934; 125 mm</li>
+								<li>&#934; 160 mm</li>
+								<li>&#934; 225 mm</li>
+								<li>&#934; 280 mm</li>
+							</ul></p>
+						</div>
+					</div>
+				</div>
+				<div class="col-md-4">
+					<div class="card mt-2 mt-md-0">
+							<img class="card-img-top" src="img/pompa-ciepla.jpg" alt="Pompy ciepła">
+							<div class="card-body text-justify">
+								<h4 class="card-title">Odwierty pod pompy ciepła</h4>
+								<p class="card-text">Na potrzeby pomp ciepła wykonuje się małośrednicowe odwierty najczęściej o głębokości ok. 100 m. Ilość wymaganych otworów ustalana jest wg zapotrzebowania danego kolektora ciepła.</p>
+							</div>
+						</div>
+					</div>
+				<div class="col-md-4">
+					<div class="card mt-2 mt-md-0">
+						<img class="card-img-top" src="img/pompa-glebinowa.jpg" alt="Pompy Głębinowe">
+						<div class="card-body text-justify">
+							<h4 class="card-title">Montaż pomp głębinowych</h4>
+							<p class="card-text">Po wykonaniu studni i ustaleniu jej wydajności doradzamy przy wyborze pompy głębinowej.</br></br>Na życzenie klienta oraz za dodatkową opłatą dokonujemy jej montażu.		</p>
+						</div>
+					</div>
+				</div>
+			</div>
+		</div>
+	</section>
+	<section>
+		<div class="container">
+			<!-- GALERIA -->
+		</div>
+	</section>
+	<section id="cennik">
+		<div class="container">
+			<!-- CENNIK -->
+			<h2>Cennik</h2>
+			<table class="table table-light table-striped table-hover">
+				<thead>
+					<tr>
+						<th>Odwierty</th>
+						<th>Cena (netto)</th>
+					</tr>
+				</thead>
+				<tbody>
+					<tr>
+						<td>Pompa ciepła </td>
+						<td>60 zł/mb</td>
+					</tr>
+					<tr>
+						<td>Studnia Głębinowa&nbsp;&nbsp;125&#934 </td>
+						<td>140 zł/mb *</td>
+					</tr>
+					<tr>
+						<td>Studnia Głębinowa&nbsp;&nbsp;160&#934 </td>
+						<td>180 zł/mb *</td>
+					</tr>
+					<tr>
+						<td>Studnia Głębinowa&nbsp;&nbsp;225&#934 </td>
+						<td>280 zł/mb *</td>
+					</tr>
+					<tr>
+						<td>Studnia Głębinowa&nbsp;&nbsp;280&#934 </td>
+						<td>350 zł/mb *</td>
+					</tr>
+					
+				</tbody>
+				<thead>
+					<tr>
+						<th>Usługi dodatkowe</th>
+						<th>Cena (netto)</th>
+					</tr>
+				</thead>
+				<tbody>
+					<tr>
+						<td>Montaż pompy głębinowej</td>
+						<td>500 zł</td>
+					</tr>
+				</tbody>
+			</table>
+			<h6>* Ceny zawierają: transport, wykonanie odwiertu, rury studzienne wraz z filtrami, obsypkę filtracyjną, próbne pompowanie studni.</h6>
+		</div>
+	</section>
+	<section id="kontakt">
+		<div class="container">
+			<!-- KONTAKT -->
+			<h2>Kontakt</h2>
+			<div class="row">
+				<div class="col-md-5">
+					<div class="row no-gutters">
+						<div class="col-md-3 text-center"><i class="icon-location ikony_kontakt"></i></div>
+						<div class="col-md-9 text-center pt-md-2"><h6>Studnie Głębinowe - Paweł Wróbel</br>Wola Podłężna, ul. Rudzicka 17</br>62-510 Konin</h6></div>
+					</div>	
+					<div class="row no-gutters">
+						<div class="col-md-3 text-center"><i class="icon-phone-circled ikony_kontakt"></i></div>
+						<div class="col-md-9 text-center py-2 py-md-0 pt-md-4"><a href="tel:+48783757695"><h5>+48 783 757 695</h5></a></div>
+					</div>
+					<div class="row no-gutters">
+						<div class="col-md-3 text-center"><i class="icon-at ikony_kontakt"></i></div>
+						<div class="col-md-9 text-center pt-2 pb-3 pb-md-0 pt-md-4"><a href="mailto:kontakt@wrobel-studnie.pl"><h5>kontakt@wrobel-studnie.pl</h5></a></div>
+					</div>
+				</div>
+				<div class="col-md-7">
+					<iframe class="rounded" src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d2442.989692132757!2d18.334763315516504!3d52.24357087976285!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x471b37559ff11215%3A0x1282370b8e31b752!2zU3R1ZG5pZSBHxYLEmWJpbm93ZSAtIFBhd2XFgiBXcsOzYmVs!5e0!3m2!1spl!2spl!4v1534768574791" width="100%" height="100%" frameborder="0" allowfullscreen></iframe>
+				</div>
+			</div>
+		</div>
+	</section>
+	<footer id="stopka">
+		<div class="container">
+			<div class="row text-center">
+				<div class="col-12">
+					<img src="img/logo-stopka.png">
+					<h4>Studnie Głębinowe - Paweł Wróbel</h4>
+					<h5>Wola Podłężna, ul. Rudzicka 17</br>62-510 Konin</br>Tel.: +48 783 757 695</br>E-mail: <a href="mailto:kontakt@wrobel-studnie.pl">kontakt@wrobel-studnie.pl</a></h5>
+					<h6><i class="icon-copyright"></i>2018 Studnie Głębinowe - Paweł Wróbel</br>Wykonanie: Dawid Wróbel</h6>
+				</div>
+			</div>
+		</div>
+	</footer>
+
+
+
+
+	<script src="popper.js" type="text/javascript"></script>
+	<script src="js/bootstrap.min.js" type="text/javascript"></script>
+</body>
+
+</html>
